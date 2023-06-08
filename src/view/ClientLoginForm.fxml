@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginContext" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="556.0" prefWidth="414.0" style="-fx-background-color: #40739e;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientLoginFormController">
+   <children>
+      <ImageView fitHeight="208.0" fitWidth="363.0" layoutX="24.0" layoutY="23.0">
+         <image>
+            <Image url="@../assets/3531375.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="139.0" layoutY="278.0" text="Enter Username" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFirstName" layoutX="79.0" layoutY="325.0" prefHeight="39.0" prefWidth="270.0" promptText="Your Name" style="-fx-background-color: #dff9fb;" />
+      <Button layoutX="147.0" layoutY="404.0" mnemonicParsing="false" onAction="#btnChatOnAction" prefHeight="39.0" prefWidth="134.0" style="-fx-background-color: #7bed9f;" text="Let's Chat">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
